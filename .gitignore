@@ -1,41 +1,48 @@
-# ======================
 # 系统文件
-# ======================
 Thumbs.db
-Thumbs.db:encryptable
 Desktop.ini
-$RECYCLE.BIN/
 .DS_Store
-.directory
 
-# ======================
 # 编辑器临时文件
-# ======================
 *.swp
 *.swo
 *~
-*.bak
-*.tmp
+.vscode/
+.idea/
+*.iml
 
-# ======================
-# 教学材料（不上传，只传自己的学习产出）
-# ======================
-*实验手册*
-*商业计划*
-
-# ======================
-# 本地配置（含敏感信息）
-# ======================
-.env
-.env.local
-*.secret
-
-# ======================
-# 编译/构建产物
-# ======================
+# 编译产物
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 node_modules/
 .vagrant/
 *.box
-*.zip
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+
+# 教学材料（不上传，只传自己的学习产出）
+*实验手册*
+*商业计划*
+*讲义*
+*课件*
+
+# 本地配置（含敏感信息）
+.env
+.env.local
+*.secret
+config.local.yaml
+config.local.yml
+
+# 备份文件
+*.backup
+*.old
+*_backup*
