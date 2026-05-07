@@ -46,3 +46,6 @@ config.local.yml
 *.backup
 *.old
 *_backup*
+
+# 个人随堂笔记（不上传）
+notes.md
