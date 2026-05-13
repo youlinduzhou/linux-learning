@@ -1,0 +1,25 @@
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+
+# 编译产物
+__pycache__/
+*.pyc
+node_modules/
+.vagrant/
+*.box
+
+# 教学材料（不上传，只传自己的学习产出）
+*实验手册*
+*商业计划*
+
+# 本地配置（含敏感信息）
+.env
+.env.local
+*.secret
